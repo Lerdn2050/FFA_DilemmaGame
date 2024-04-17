@@ -2,6 +2,7 @@ The program is made in Windows Forms
 The target work environment .NET Framework 4
 
 All strategies take turns colliding with all other strategies, if the skip move rule is enabled, then when the strategy is betrayed, the next time it's her turn to play against everyone, she will skip it
+
 By default, the player who collaborated and was betrayed gets 0 points, if he was collaborated with in response, he gets 3 points, the player who betrayed and was betrayed in response gets 1 point, and if he was not betrayed in response, he gets 5 points
 
 Here are the current top strategies for playing 60,000 rounds
