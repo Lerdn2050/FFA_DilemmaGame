@@ -272,6 +272,7 @@ namespace DilemmaGame
             //расчёт
             int player = 0;
             int opponent = 0;
+
             while (!EndCheck(GI.Rounds.Length))
             {
                 
@@ -293,6 +294,7 @@ namespace DilemmaGame
                 GI += new GameInfo.Round(player, opponent, pChoice, oChoice);
             skip:;
                 opponent++;
+
                 if (opponent == typelist.Length)
                 {
                     opponent = 0;

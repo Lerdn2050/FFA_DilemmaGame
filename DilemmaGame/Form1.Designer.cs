@@ -51,7 +51,7 @@ namespace DilemmaGame
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button1.Location = new System.Drawing.Point(327, 4);
+            this.button1.Location = new System.Drawing.Point(414, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(159, 38);
             this.button1.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace DilemmaGame
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
-            this.button2.Location = new System.Drawing.Point(327, 55);
+            this.button2.Location = new System.Drawing.Point(414, 55);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(159, 38);
             this.button2.TabIndex = 2;
@@ -79,12 +79,12 @@ namespace DilemmaGame
             this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.ClientSize = new System.Drawing.Size(504, 102);
+            this.ClientSize = new System.Drawing.Size(584, 102);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.MaximumSize = new System.Drawing.Size(520, 300);
+            this.MaximumSize = new System.Drawing.Size(600, 300);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
